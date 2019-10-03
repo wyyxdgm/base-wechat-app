@@ -1,0 +1,39 @@
+{
+  "name": "base-wechat-app",
+  "version": "1.0.0",
+  "description": "base-wechat-app",
+  "main": "gulp",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-css-base64": "^1.3.4",
+    "gulp-html-minify": "0.0.14",
+    "gulp-less": "^3.1.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify-es": "^0.1.11",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyyxdgm/base-wechat-app.git"
+  },
+  "keywords": [
+    "base-wechat-app",
+    "gulp",
+    "less",
+    "小程序基础构建",
+    "适配iphoneX",
+    "wechat-app"
+  ]
+}

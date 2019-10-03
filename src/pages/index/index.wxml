@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="page flex-center bg">
+  <view class="content-wrapper text-center">
+    <view class="app-title">
+      {{text}}
+    </view>
+    <!-- show when isLoaded == true -->
+    <view wx:if="{{isLoaded}}">
+      <view class="gline mt-20"></view>
+      <button hover-class="button-start-hover" class="button-start mt-30" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">登录</button>
+      <view class="gline mt-20"></view>
+      <button hover-class="button-start-hover" bindtap="login">login</button>
+    </view>
+  </view>
+</view>

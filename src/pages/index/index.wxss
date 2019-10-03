@@ -1,0 +1,45 @@
+@import "../../assets/style/fn.wxss";
+
+page {
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.content-wrapper {
+	width: unit(2*295, rpx);
+	height: unit(2*526, rpx);
+	border-radius: unit(2*8, rpx);
+	background: #FFFFFF;	/*margin-top: 40px;*/
+	box-shadow: 8px 10px 30px RGBA(13, 10, 6, 0.34);
+}
+
+.app-title {
+	color: @muiMain;
+	padding-top: 66px;
+	margin: auto;
+	font-family: PingFangSC;
+	font-weight: bold;
+	line-height: unit(2*28, rpx);
+
+	.p1 {
+		font-size: unit(2*20, rpx);
+	}
+
+	.p2 {
+		font-size: unit(2*36, rpx);
+	}
+
+	.p3 {
+		font-size: unit(2*18, rpx);
+	}
+
+}
+
+.gline {
+	widows: 100%;
+	border-top: 1px solid @muiBlackLine;
+}

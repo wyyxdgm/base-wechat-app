@@ -1,0 +1,50 @@
+.ellipsis(@w:auto) {
+    width: @w;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.ellipsisLn(@line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @line;
+}
+
+.text_wrap() {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.hyphens() {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.fs(@px) {
+    font-size: unit(@px*1.1, px);
+}
+
+.fs2rpx(@px) {
+    font-size: unit(@px*1.9, rpx);
+}
+
+.shadow(@px, @color, @fade:20) {
+    box-shadow: unit(1*@px, rpx) unit(2*@px, rpx) unit(@px*6, rpx) fade(@color, @fade);
+}
+.shadow2(@px, @color, @fade:20) {
+    box-shadow: unit(1*@px, rpx) unit(1*@px, rpx) unit(@px*6, rpx) fade(@color, @fade);
+}
+.shadow3(@px, @color, @fade:20) {
+    box-shadow: unit(1*@px, rpx) unit(-1*@px, rpx) unit(@px*6, rpx) fade(@color, @fade);
+}
+.shadow3b(@px, @color, @fade:20) {
+    box-shadow: unit(1*@px, rpx) unit(-1*@px, rpx) unit(@px*2, rpx) fade(@color, @fade);
+}
+.shadow4(@px, @color, @fade:20) {
+    box-shadow: unit(1*@px, rpx) unit(-2*@px, rpx) unit(@px*6, rpx) fade(@color, @fade);
+}

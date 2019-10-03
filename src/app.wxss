@@ -1,0 +1,26 @@
+/**app.wxss**/
+@import 'assets/style/mui.wxss';
+
+page {
+	height: 100%;
+	width: 100%;
+	font-family: "PingFangSC-light", -apple-system-font, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	color: @muiBlack;
+}
+
+page .iphone-x {
+	padding-bottom: 68rpx;
+}
+
+page .bg, page.bg, .page.bg {
+}
+
+.icon {
+	width: 60rpx;
+	height: 60rpx;
+}
+
+.icon-sm {
+	width: 30rpx;
+	height: 30rpx;
+}

@@ -1,0 +1,10 @@
+/*color*/
+@muiBgColorDefault: RGBA(255, 255, 255, 1);
+@muiMain: RGBA(98, 73, 139, 1);
+@muiWhite: RGBA(255, 255, 255, 1);
+@muiBlack: RGBA(74, 74, 74, 1);
+@muiLightBlack:RGBA(155, 155, 155, 1);
+@muiBlackBorder:RGBA(151, 151, 151, 1);
+@muiBlackLine: RGBA(208, 208, 208, 1);
+@muiMainBackground: RGBA(109, 96, 164, 1);
+@muiActiveBorder: RGBA(152, 116, 255, 1);
